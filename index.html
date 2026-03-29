@@ -3,15 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <title>Matchmaker</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+ body {
+            background-color: #FFFDF5E6;
+            color: #FF2F4F4F;
+            font-family: 'Orbitron', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 5px #2F4F4F;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        select {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1rem;
+            padding: 8px 12px;
+            margin-bottom: 20px;
+            border: 2px solid #2F4F4F;
+            border-radius: 8px;
+            background-color: #FFFDF5;
+            color: #2F4F4F;
+            outline: none;
+            transition: 0.3s all;
+        }
+
+        select:hover {
+            border-color: #FF2F4F;
+            box-shadow: 0 0 10px #FF2F4F44;
+        }
+
+        button {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #2F4F4F, #FF2F4F);
+            color: #FFFDF5;
+            cursor: pointer;
+            transition: 0.3s all;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #FF2F4F66;
+        }
+
+        #compatibility {
+            font-size: 1.5rem;
+            margin-top: 30px;
+            text-align: center;
+            text-shadow: 1px 1px 3px #2F4F4F44;
+        }
+
+        select, button {
+            min-width: 250px;
+        }
+
+        /* Responsive */
+        @media (max-width: 500px) {
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            select, button {
+                min-width: 200px;
+            }
+        }
+    </style>
 </head>
 <body>
 
     <h1>Matchmaker</h1>
-<<<<<<< HEAD
-    <p>This is my first HTML page.</p>
-=======
-    <p>Instructions...</p>
->>>>>>> 95ae53c (update 2)
 
     <label>Coffee is better than tea.</label><br />
 	<select id="q1">
